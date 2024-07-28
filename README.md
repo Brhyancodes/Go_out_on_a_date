@@ -1,0 +1,1 @@
+In this simple project, I'm going to use HTML, CSS, and JavaScript. I'm going to experiment with event listeners and functions to make my project interactive. Feel free to create a fork and play around with it.

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Could we Go out on a Date?</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Container for everything--->
+    <header>
+        <!--img tag--->
+        <img src="https://webdesignmastery.github.io/Ask_A_Date_20-01-24/assets/date.png" alt="could we go out on  a date?">
+    </header>
+    <main>
+        <!--gif that will chane if Yes is clicked--->
+        <div class="gifcontainer">
+            <img src="https://webdesignmastery.github.io/Ask_A_Date_20-01-24/assets/erm-fingers.gif" alt="Yes" id="askingGif">
+            <img src="https://webdesignmastery.github.io/Ask_A_Date_20-01-24/assets/oh-yay.gif" alt="Celebration" id="Celebration" class="hidden">
+        </div>
+    </main>
+    
+    
+    <!--Button container-->
+    <!--Yes Button Changes Gif clicked-->
+    <div class="buttoncontainer">
+        <button onclick="hideGif()">Yes</button>
+        <!--No Button moves when No is attempted-->
+        <button id="no">No</button>
+    </div>
+   
+</body>
+<script src="index.js"></script>
+</html>
